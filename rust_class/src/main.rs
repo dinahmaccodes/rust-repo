@@ -5,6 +5,7 @@ mod div;
 mod mult; 
 mod even_sum;
 mod sum_result;
+mod fp;
 
 fn main() {
     println!("Hello, big world!");
@@ -28,6 +29,8 @@ fn main() {
     // Basic summation for result status
     let sum_result: String = sum_result::calc_sum_result(52, 8);
     println!("The sum is: {}", sum_result);
-
+    //Basic floating point numbers
+    let floating_point: f64 = fp::floating(2.5, 8.91);
+    println!("points are: {}", floating_point);
 
 }
